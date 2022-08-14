@@ -1,0 +1,451 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    background-color: #FFFFFF;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+
+body {
+    font-family: 'Frank Ruhl Libre', 'Poppins' sans-serif;
+}
+
+header {
+    height: 1115px;
+    background: url(images/header-fon.png) no-repeat;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #000000;
+}
+
+.menu-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 140px;
+}
+
+.menu-link-btn {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+.menu-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-login {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    background: linear-gradient(77.49deg, #FDBB57 0%, rgba(251, 251, 251, 0) 100%);
+    box-shadow: inset 4px 4px 4px #F2D09B;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 27px;
+    margin-right: 10px;
+}
+
+.menu-sign {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    background: linear-gradient(77.49deg, #FDBB57 0%, rgba(251, 251, 251, 0) 100%);
+    box-shadow: inset 4px 4px 4px #F2D09B;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 27px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    width: 556px;
+    margin-right: 181px;
+}
+
+.header-title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 96px;
+    color: #000000;
+}
+
+.header-desc {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.header-btn {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #000000;
+    border-radius: 10px;
+    padding: 25px 91px;
+}
+
+.header-content-img {
+    margin-top: -110px;
+}
+
+.header-images {
+    background: url(images/header-images.png) no-repeat;
+    background-position: bottom left;
+    margin-top: -220px;
+}
+
+.header-img {
+    margin-left: 100px;
+}
+
+.header-bottom {
+    width: 1420px;
+    margin-top: -160px;
+}
+
+.new-collection {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.new-collection-title {
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 83px;
+    color: #000000;
+    text-align: center;
+}
+
+.new-collection-desc {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    text-align: center;
+    margin-top: -60px;
+    margin-bottom: 60px;
+}
+
+.new-collection-carts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
+}
+
+.new-collection-img {
+    margin-bottom: -100px;
+}
+
+.new-collection-btn {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 10px 108px;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.bast-fashion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bast-fashion-images {
+    background: url(images/best-fashion-img-fon.png) no-repeat;
+    background-position: top right;
+    margin-right: -180px;
+}
+
+.bast-fashion-img {
+    margin-top: 70px;
+    margin-right: 90px;
+}
+
+
+.bast-fashion-content {
+    width: 793px;
+    margin-top: 300px;
+    margin-top: 280px;
+    z-index: -1;
+}
+
+.bast-fashion-title {
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 83px;
+    color: #000000;
+    width: 437px;
+    margin-left: 126px;
+}
+
+.bast-fashion-desc {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    width: 437px;
+    margin-left: 126px;
+}
+
+.bast-fashion-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(83.43deg, #CD8922 0.44%, rgba(255, 184, 79, 0.45) 95.53%);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 780px;
+    margin-top: 132px;
+}
+
+.bast-fashion-tab-nember {
+    font-family: 'Podkova';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 71px;
+    color: #000000;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+.bast-fashion-tab-text {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.bast-fashion-tab-img1 {
+    margin-left: 27px;
+    margin-right: 60px;
+}
+
+.bast-fashion-tab-img2 {
+    margin-left: 27px;
+    margin-right: 60px;
+}
+
+.best-fashion-bottom {
+    margin-bottom: -30px;
+}
+
+.best-slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #CFA485 68.72%, rgba(199, 155, 123, 0) 100%);
+    height: 828px;
+}
+
+.best-slider-container-content {
+    margin-top: -230px;
+}
+
+.best-slider-container-title {
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 83px;
+    color: #FFFFFF;
+    width: 437px;
+}
+
+.best-slider-container-desc {
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+    width: 437px;
+}
+
+.best-slider-container-btns {
+    width: 638px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.best-slider-container-btn {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.best-slider-container-btn-img {
+
+}
+
+.flex-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-wrapper {
+    max-width: 800px;
+    width: 100%;
+    height: 490px;
+    position: relative;
+}
+
+#btn-prev, #btn-next {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50px;
+    background-color: gray;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: opacity .2s ease-in-out;
+}
+
+#btn-prev:hover, #btn-next:hover {
+    opacity: 0.6;
+}
+
+
+#btn-next {
+    left: auto;
+    right: 0;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+.dots-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 130px;
+}
+
+.dot.active {
+    background-color: #000000;
+}
+
+span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: gray; 
+    margin-right: 10px;
+    cursor: pointer;
+}
+span:last-child{
+    margin-right: 0;
+}
+
+.best-slider-content-prices {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.best-slider-content-title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: -20px;
+}
+
+.best-slider-content-price-old {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #C4C4C4;
+    margin-right: 55px;
+}
+
+.best-slider-content-price {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.best-slider-content {
+    background-color: #FFF;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-top: -10px;
+}
+
+.best-slider {
+    margin-left: 300px;
+}
