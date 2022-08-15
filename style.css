@@ -449,3 +449,290 @@ span:last-child{
 .best-slider {
     margin-left: 300px;
 }
+
+.product-tabs-title {
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 83px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.tab-btn {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.tab-btn.active {
+    background-color: #f1f1f1;
+}
+
+#contents {
+    max-width: 300px;
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
+
+.tabs-img {
+    margin-bottom: 68px;
+    margin-left: 25px;
+}
+
+.deal {
+    background: #FAE3B6;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.deal-content {
+    width: 569px;
+    margin-left: 75px;
+    margin-bottom: 40px;
+}
+
+.deal-title {
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 83px;
+    color: #000000;
+}
+
+.deal-desc {
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.timer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.deal-days {
+    background: #FFFFFF;
+    width: 104px;
+    height: 104px;
+    margin-right: 27px;
+}
+
+.deal-number {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.deal-timer-text {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+}
+
+.deal-hours {
+    background: #FFFFFF;
+    width: 104px;
+    height: 104px;
+    margin-right: 27px;
+}
+
+.deal-mins {
+    background: #FFFFFF;
+    width: 104px;
+    height: 104px;
+}
+
+.deal-btn {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 10px;
+    padding: 23px 86px;
+    text-decoration: none;
+}
+
+.deal-images {
+    background: url(images/deal-fon.png) no-repeat;
+    background-position: bottom left;
+    margin-top: 50px;
+    margin-left: 194px;
+}
+
+.deal-img {
+    margin-bottom: 90px;
+    margin-left: 70px;
+}
+
+.slider-about {
+    margin-bottom: 130px;
+}
+
+.slider-about-title {
+    font-family: 'Frank Ruhl Libre';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 83px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.slider-about-desc {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    text-align: center;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .slider__wrapper {
+    overflow: hidden;
+  }
+
+  .slider__item {
+   flex: 0 0 50%;
+    max-width: 50%;
+    background: #FEECC8;
+    width: 512px;
+    padding: 22px;
+    border: 35px solid #FFF;
+  }
+
+  .slider__item-title {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    text-align: center;
+  }
+
+  .slider__item-desc {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    width: 459px;
+  }
+
+  .slider__item-img {
+    margin-left: 260px;
+  }
+
+  .slider__item-name {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    text-align: center;
+  }
+
+  .slider__item-post {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    text-align: center;
+  }
+
+  footer {
+
+  }
+
+  .footer-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-inst-lin {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 43px 88px;
+  }
+
+  .footer-menu {
+    background: #000000;
+  }
+
+  .footer-menu-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-menu-link {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin: 0 30px;
+    text-decoration: none;
+  }
+
+  .copyright {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+  }
