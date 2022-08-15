@@ -480,6 +480,7 @@ span:last-child{
 
 .tab-btn.active {
     background-color: #f1f1f1;
+    padding: 0 10px;
 }
 
 #contents {
@@ -697,7 +698,7 @@ span:last-child{
     align-items: center;
   }
 
-  .footer-inst-lin {
+  .footer-inst-link {
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 28px;
@@ -706,10 +707,17 @@ span:last-child{
     background: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
     padding: 43px 88px;
+    width: 638px;
+    margin-left: 401px;
+    margin-top: -60px;
+    position: relative;
+    margin-bottom: -70px;
   }
 
   .footer-menu {
     background: #000000;
+    height: 424px;
+    margin-top: -30px;
   }
 
   .footer-menu-links {
@@ -726,6 +734,8 @@ span:last-child{
     color: #FFFFFF;
     margin: 0 30px;
     text-decoration: none;
+    margin-top: 128px;
+    margin-bottom: 111px;
   }
 
   .copyright {
@@ -735,4 +745,8 @@ span:last-child{
     line-height: 36px;
     color: #FFFFFF;
     text-align: center;
+  }
+
+  .footer-img {
+    height: 240px;
   }
